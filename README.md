@@ -1,5 +1,3 @@
-#### Unstable => Current try to run with Alpine instead of huge Ubuntu images ####
-
 ## What is Z-Way?
 
 _from [Z-Wave.me](https://www.z-wave.me/index.php?id=22):_
