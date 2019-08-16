@@ -1,4 +1,4 @@
-#### Unstable => Current try to run with Alpine instead of huge Ubuntu images ####
+#### Unstable => Current try to run with Alpine instead of huge Ubuntu images => Use Ubuntu branch instead ####
 
 ## What is Z-Way?
 
