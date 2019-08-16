@@ -35,7 +35,7 @@ Sample output:
 
 
 ```sh
-> docker run --rm -it -p 8083:8083 --device=/dev/ttyACM0 ruimarinho/z-way
+> docker run --rm -it -p 8083:8083 --device=/dev/ttyACM1 ruimarinho/z-way
 ```
 
 By loading your UZB1 Stick, you will be able to update its bootloader and firmware versions.
