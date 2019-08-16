@@ -16,7 +16,7 @@ software certified by the Z-Wave Alliance back in March 2011.
 If you own a ZME UZB1 Stick, you can load it on the Z-Way server.
 First you need to get the device vendor ID:
 ```sh
-> id=lsusb | grep Sigma | awk '{print $6}' | cut -d':' -f1
+> id=$(lsusb | grep Sigma | awk '{print $6}' | cut -d':' -f1)
 ```
 
 now you can search for the mapping:
@@ -35,7 +35,7 @@ Sample output:
 
 
 ```sh
-> docker run --rm -it -p 8083:8083 --device=/dev/ttyACM1 ruimarinho/z-way
+> docker run --rm -it -p 8083:8083 --device=/dev/ttyACM1 foexle/zwave-rpi
 ```
 
 By loading your UZB1 Stick, you will be able to update its bootloader and firmware versions.
